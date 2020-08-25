@@ -5,13 +5,12 @@ import User from './User';
 import PersonList from './PersonList';
 import Delete from './Delete';
 import Create from './Create';
+import MyRouter from './Router';
 
 function App() {
   return (
     <div className="App">
-      <PersonList/>
-      <Delete/>
-      <Create/>
+      <MyRouter/>
     </div>
   );
 }
